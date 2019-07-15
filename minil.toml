@@ -1,0 +1,17 @@
+name = "MojoX-HyperScript"
+authority = "cpan:NYARLA"
+license= = "perl_5"
+
+rename_from = "lib/MojoX/HyperScript.pm"
+abstract_from = "lib/MojoX/HyperScript.pm"
+author_from = "lib/Mojox//HyperScript.pm"
+
+tag_format = "v%v"
+
+module_maker="ModuleBuildTiny"
+
+static_install = "auto"
+
+[release]
+pause_config = "/home/nyarla/.pause"
+do_not_upload_to_cpan = true

@@ -1,0 +1,60 @@
+{
+  "abstract" : "MojoX::HyperScript - A hyperscript-like thin wrapper for Mojo::DOM",
+  "author" : [
+    "OKAMURA Naoki a.k.a nyarla <nyarla@kalaclista.com>"
+  ],
+  "dynamic_config" : 0,
+  "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
+  "license" : [
+    "perl_5"
+  ],
+  "meta-spec" : {
+    "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version" : 2
+  },
+  "name" : "MojoX-HyperScript",
+  "no_index" : {
+    "directory" : [
+      "t",
+      "xt",
+      "inc",
+      "share",
+      "eg",
+      "examples",
+      "author",
+      "builder"
+    ]
+  },
+  "prereqs" : {
+    "configure" : {
+      "requires" : {
+        "Module::Build::Tiny" : "0.035"
+      }
+    },
+    "develop" : {
+      "requires" : {
+        "Test::CPAN::Meta" : "0",
+        "Test::MinimumVersion::Fast" : "0.04",
+        "Test::PAUSE::Permissions" : "0.04",
+        "Test::Pod" : "1.41",
+        "Test::Spellunker" : "v0.2.7"
+      }
+    },
+    "runtime" : {
+      "requires" : {
+        "Exporter::Tiny" : "1.002001",
+        "Mojolicious" : "8.20",
+        "perl" : "v5.28.0"
+      }
+    },
+    "test" : {
+      "requires" : {
+        "Test2::Suite" : "0.000122"
+      }
+    }
+  },
+  "release_status" : "unstable",
+  "version" : "0.01",
+  "x_serialization_backend" : "JSON::PP version 2.97001",
+  "x_static_install" : 1
+}
