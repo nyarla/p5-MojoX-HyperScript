@@ -1,6 +1,6 @@
 name = "MojoX-HyperScript"
 authority = "cpan:NYARLA"
-license= = "perl_5"
+license = "perl_5"
 
 rename_from = "lib/MojoX/HyperScript.pm"
 abstract_from = "lib/MojoX/HyperScript.pm"
