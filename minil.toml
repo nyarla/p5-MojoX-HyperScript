@@ -14,4 +14,3 @@ static_install = "auto"
 
 [release]
 pause_config = "/home/nyarla/.pause"
-do_not_upload_to_cpan = true
