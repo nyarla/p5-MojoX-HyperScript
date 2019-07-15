@@ -57,6 +57,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/nyarla/p5-MojoX-HyperScript/issues"
+      },
+      "homepage" : "https://github.com/nyarla/p5-MojoX-HyperScript",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nyarla/p5-MojoX-HyperScript.git",
+         "web" : "https://github.com/nyarla/p5-MojoX-HyperScript"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:NYARLA",
    "x_contributors" : [
