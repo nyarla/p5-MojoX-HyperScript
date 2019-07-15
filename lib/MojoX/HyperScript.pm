@@ -94,16 +94,16 @@ MojoX::HyperScript - A hyperscript-like thin wrapper for L<Mojo::DOM>
     my $dom = H 'p.msg' => 'this is an message.';
     
     # <p id="important">this is an important message!</p>
-    my $dom = H 'p#id' => 'this is an important message!';
+    my $dom = H 'p#important' => 'this is an important message!';
     
     # <p id="msg" class="warn">warnings!</p>
-    my $dom =H 'p#msg.warn' => 'warnings!';
+    my $dom = H 'p#msg.warn' => 'warnings!';
     
     # <p id="msg" class="info" data-to="nyarla">info to nyarla</p>
     my $dom = H 'p#msg.info' => { data => { to => 'nyarla' } }, 'info to nyarla';
     
     # <p>hi, <em>nyarla</em></p>
-    my $dom = H 'p' => [ H( em => 'nyarla' ) ];
+    my $dom = H 'p' => [ 'hi, ', H( em => 'nyarla' ) ];
 
 =head1 DESCRIPTION
 
